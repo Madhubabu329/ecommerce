@@ -1,0 +1,39 @@
+npm install firebase axios
+npx create-react-app otp-jwt-login
+cd otp-jwt-login
+npm install axios react-router-dom
+
+
+
+
+
+backend
+
+npm init -y
+npm install express mongoose cors dotenv
+npm init -y
+npm install express mongoose dotenv cors nodemailer body-parser
+npm install jsonwebtoken
+
+
+npm init -y
+npm install express mongoose cors body-parser dotenv nodemailer jsonwebtoken
+npm install bcryptjs
+
+ 
+
+
+
+ uses
+
+User enters name + email → Send OTP
+
+Backend sends 6-digit OTP email
+
+User enters OTP → backend verifies → generates JWT
+
+JWT stored in localStorage, user redirected to Dashboard
+
+Dashboard or other protected APIs require JWT in headers
+
+This is a fully working end-to-end email OTP + JWT login system.
